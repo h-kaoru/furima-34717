@@ -1,24 +1,65 @@
-# README
+# DB 設計
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## users テーブル
 
-Things you may want to cover:
+| Column             | Type                | Options                 |
+|--------------------|---------------------|-------------------------|
+| nickname           | string              | null: false             |
+| email              | string              | null: false             |
+| user_password      | string              | null: false             |
+| family_name        | string              | null: false             |
+| first_name         | string              | null: false             |
+| family_name_kana   | string              | null: false             |
+| birth_day          | date                | null: false             |
 
-* Ruby version
+### Association
+- has_many: items
+- belongs_to :buyer
+- has_one: credit_card
 
-* System dependencies
 
-* Configuration
+## items テーブル
 
-* Database creation
+| Column             | Type                | Options                       |
+|--------------------|---------------------|-------------------------------|
+| product            | string              | null: false                   |
+| introduction       | text                | null: false                   |
+| category_id        | integer             | null: false                   |
+| status_id          | integer             | null: false                   |
+| burden_id          | integer             | null: false                   |
+| ship_from_id       | integer             | null: false                   |
+| days_delivery_id   | integer             | null: false                   |
+| price              | integer             | null: false                   |
+| user_id            | integer             | null:false, foreign_key: true |
 
-* Database initialization
+### Association
+- belongs_to :user
 
-* How to run the test suite
+##  buyer テーブル
 
-* Services (job queues, cache servers, search engines, etc.)
+| Column             | Type                | Options                       |
+|--------------------|---------------------|-------------------------------|
+| postal_code        | integer             | null: false                   |
+| prefecture         | date                | null: false                   |
+| municipality       | integer             | null: false                   |
+| address            | integer             | null: false                   |
+| building_name      | string              | null: false                   |
+| phone_number       | integer             | null: false                   |
+| user_id            | integer             | null:false, foreign_key: true |
 
-* Deployment instructions
+### Association
+- belongs_to :user
 
-* ...
+
+##   credit_cardテーブル
+
+| Column             | Type                | Options                       |
+|--------------------|---------------------|-------------------------------|
+| card_number        | integer             | null: false                   |
+| card_year          | integer             | null: false                   |
+| card_month         | integer             | null: false                   |
+| security_code      | integer             | null: false                   |
+| user_id            | integer             | null:false, foreign_key: true |
+
+### Association
+- belongs_to :user
