@@ -15,7 +15,6 @@
 
 ### Association
 - has_many: items
-- belongs_to :buyer
 
 
 
@@ -31,7 +30,7 @@
 | ship_from_id       | integer             | null: false                   |
 | days_delivery_id   | integer             | null: false                   |
 | price              | integer             | null: false                   |
-| user_id            | integer             | null:false, foreign_key: true |
+| user               | references          | foreign_key: true             |
 
 ### Association
 - belongs_to: purchase_history
@@ -41,25 +40,23 @@
 | Column             | Type                | Options                       |
 |--------------------|---------------------|-------------------------------|
 | postal_code        | string              | null: false                   |
-| user_id            | integer             | null:false, foreign_key: true |
+| user               | references          | foreign_key: true             |
 | municipality       | string              | null: false                   |
 | address            | string              | null: false                   |
 | building_name      | string              |                               |
 | phone_number       | string              | null: false                   |
 
 ### Association
-- belongs_to: user
 - belongs_to: purchase_history
 
 ##   purchase_historyテーブル
 
 | Column             | Type                | Options                       |
 |--------------------|---------------------|-------------------------------|
-| buyer_id           | integer             | null:false, foreign_key: true |
-| items_id           | integer             | null:false, foreign_key: true |
+| buyer_id           | references          | foreign_key: true             |
+| items_id           | references          | foreign_key: true             |
 
 
 ### Association
 - belongs_to :item
 - belongs_to :buyer
-- belongs_to: user
