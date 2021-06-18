@@ -15,6 +15,7 @@
 
 ### Association
 - has_many: items
+- has_many: purchase_history
 
 
 
@@ -27,12 +28,13 @@
 | category_id        | integer             | null: false                   |
 | status_id          | integer             | null: false                   |
 | burden_id          | integer             | null: false                   |
-| ship_from_id       | integer             | null: false                   |
+| ship_from_id       | references          | foreign_key: true             |
 | days_delivery_id   | integer             | null: false                   |
 | price              | integer             | null: false                   |
 | user               | references          | foreign_key: true             |
 
 ### Association
+- belongs_to: user
 - belongs_to: purchase_history
 
 ##  buyer テーブル
@@ -40,7 +42,7 @@
 | Column             | Type                | Options                       |
 |--------------------|---------------------|-------------------------------|
 | postal_code        | string              | null: false                   |
-| user               | references          | foreign_key: true             |
+| ship_from_id       | references          | foreign_key: true             |
 | municipality       | string              | null: false                   |
 | address            | string              | null: false                   |
 | building_name      | string              |                               |
@@ -53,10 +55,10 @@
 
 | Column             | Type                | Options                       |
 |--------------------|---------------------|-------------------------------|
-| buyer_id           | references          | foreign_key: true             |
-| items_id           | references          | foreign_key: true             |
-
+| buyer              | references          | foreign_key: true             |
+| items              | references          | foreign_key: true             |
 
 ### Association
+- belongs_to :user
 - belongs_to :item
 - belongs_to :buyer
