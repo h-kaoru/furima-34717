@@ -229,10 +229,10 @@
                 <mxCell id="RTZNErKrQ9jac7cI_J6o-329" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RTZNErKrQ9jac7cI_J6o-324" vertex="1">
                     <mxGeometry y="40" width="370" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="RTZNErKrQ9jac7cI_J6o-330" value="prefecture" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="RTZNErKrQ9jac7cI_J6o-329" vertex="1">
+                <mxCell id="RTZNErKrQ9jac7cI_J6o-330" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;ricty diminished&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 21px&quot;&gt;ship_from_id&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="RTZNErKrQ9jac7cI_J6o-329" vertex="1">
                     <mxGeometry width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="RTZNErKrQ9jac7cI_J6o-331" value="date" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="RTZNErKrQ9jac7cI_J6o-329" vertex="1">
+                <mxCell id="RTZNErKrQ9jac7cI_J6o-331" value="integer" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="RTZNErKrQ9jac7cI_J6o-329" vertex="1">
                     <mxGeometry x="120" width="80" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="RTZNErKrQ9jac7cI_J6o-332" value="null:false" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="RTZNErKrQ9jac7cI_J6o-329" vertex="1">
@@ -283,7 +283,7 @@
                         <mxPoint x="420" y="430" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="RTZNErKrQ9jac7cI_J6o-374" value="user_id" style="rounded=0;whiteSpace=wrap;html=1;" parent="RTZNErKrQ9jac7cI_J6o-1" vertex="1">
+                <mxCell id="RTZNErKrQ9jac7cI_J6o-374" value="user" style="rounded=0;whiteSpace=wrap;html=1;" parent="RTZNErKrQ9jac7cI_J6o-1" vertex="1">
                     <mxGeometry x="420" y="610" width="120" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="RTZNErKrQ9jac7cI_J6o-375" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: &amp;quot;ricty diminished&amp;quot;, menlo, monaco, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 21px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;references&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="RTZNErKrQ9jac7cI_J6o-1" vertex="1">
@@ -292,10 +292,10 @@
                 <mxCell id="RTZNErKrQ9jac7cI_J6o-376" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;ricty diminished&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 21px&quot;&gt;foreign_key: true&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="RTZNErKrQ9jac7cI_J6o-1" vertex="1">
                     <mxGeometry x="630" y="610" width="180" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="RTZNErKrQ9jac7cI_J6o-382" value="user_id" style="rounded=0;whiteSpace=wrap;html=1;" parent="RTZNErKrQ9jac7cI_J6o-1" vertex="1">
+                <mxCell id="RTZNErKrQ9jac7cI_J6o-382" value="user" style="rounded=0;whiteSpace=wrap;html=1;" parent="RTZNErKrQ9jac7cI_J6o-1" vertex="1">
                     <mxGeometry x="20" y="1020" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="RTZNErKrQ9jac7cI_J6o-383" value="integer" style="rounded=0;whiteSpace=wrap;html=1;" parent="RTZNErKrQ9jac7cI_J6o-1" vertex="1">
+                <mxCell id="RTZNErKrQ9jac7cI_J6o-383" value="&lt;span style=&quot;color: rgb(212 , 212 , 212) ; font-family: &amp;#34;ricty diminished&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; background-color: rgb(30 , 30 , 30)&quot;&gt;references&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="RTZNErKrQ9jac7cI_J6o-1" vertex="1">
                     <mxGeometry x="140" y="1020" width="80" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="RTZNErKrQ9jac7cI_J6o-384" value="&lt;span style=&quot;color: rgb(212 , 212 , 212) ; font-family: &amp;#34;ricty diminished&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; background-color: rgb(30 , 30 , 30)&quot;&gt;foreign_key: true&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="RTZNErKrQ9jac7cI_J6o-1" vertex="1">
@@ -313,7 +313,7 @@
                 <mxCell id="g5e_-5cKJ-WxG7wdG1BJ-10" value="&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Purchase_history&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RTZNErKrQ9jac7cI_J6o-1">
                     <mxGeometry x="480" y="730" width="330" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="g5e_-5cKJ-WxG7wdG1BJ-11" value="buyer_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RTZNErKrQ9jac7cI_J6o-1">
+                <mxCell id="g5e_-5cKJ-WxG7wdG1BJ-11" value="user" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RTZNErKrQ9jac7cI_J6o-1">
                     <mxGeometry x="480" y="780" width="90" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="g5e_-5cKJ-WxG7wdG1BJ-12" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;ricty diminished&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 21px&quot;&gt;references&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RTZNErKrQ9jac7cI_J6o-1">
@@ -322,7 +322,7 @@
                 <mxCell id="g5e_-5cKJ-WxG7wdG1BJ-13" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;ricty diminished&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 21px&quot;&gt;foreign_key: true&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RTZNErKrQ9jac7cI_J6o-1">
                     <mxGeometry x="660" y="780" width="150" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="g5e_-5cKJ-WxG7wdG1BJ-14" value="items_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RTZNErKrQ9jac7cI_J6o-1">
+                <mxCell id="g5e_-5cKJ-WxG7wdG1BJ-14" value="item" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RTZNErKrQ9jac7cI_J6o-1">
                     <mxGeometry x="480" y="820" width="90" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="g5e_-5cKJ-WxG7wdG1BJ-15" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;ricty diminished&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 21px&quot;&gt;references&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RTZNErKrQ9jac7cI_J6o-1">
