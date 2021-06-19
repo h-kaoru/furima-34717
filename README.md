@@ -15,7 +15,7 @@
 
 ### Association
 - has_many: items
-- has_many: purchase_history
+- has_many: purchase_histories
 
 
 
@@ -47,6 +47,8 @@
 | address            | string              | null: false                   |
 | building_name      | string              |                               |
 | phone_number       | string              | null: false                   |
+| purchase_history   | references          | foreign_key: true             |
+
 
 ### Association
 - belongs_to: purchase_history
@@ -61,4 +63,4 @@
 ### Association
 - belongs_to :user
 - belongs_to :item
-- belongs_to :buyer
+- has_one :buyer
